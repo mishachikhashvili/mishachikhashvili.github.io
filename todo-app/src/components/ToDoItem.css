@@ -1,0 +1,14 @@
+.todo-item {
+   display: flex;
+   gap: 10px;
+   .todo-label {
+      font-size: 16px;
+      color: #333;
+      transition: color 0.3 ease;
+
+      &.completed {
+         color: #888;
+         text-decoration: line-through;
+      }
+   }
+}
